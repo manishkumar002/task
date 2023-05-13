@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+.nav{
+    height: 40px;
+    background-color: black;
+    
+    color: white !important;
+}
+ul{
+   list-style: none;
+}
+.add{
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+.all{
+    position: absolute;
+    top: 51px;
+    right: 230px;
+}
+
+ul li {
+    float: left;
+    text-decoration: none;
+    margin-left: 50px;
+
+    margin-top: 5px;
+}
+.form{
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.login-user{
+    cursor: pointer;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.a {
+    text-decoration: none;
+}
